@@ -15,7 +15,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-    # TODO: put package requirements here
+    'click<5.0',
 ]
 
 test_requirements = [
@@ -35,6 +35,11 @@ setup(
     ],
     package_dir={'less2sass':
                  'less2sass'},
+    entry_points={
+        'console_scripts': [
+            'less2sass = less2sass.cli:main',
+        ]
+    },
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",
