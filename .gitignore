@@ -35,6 +35,12 @@ htmlcov
 .project
 .pydevproject
 
+# Vim
+*~
+*.swp
+*.swo
+
+
 # Complexity
 output/*.html
 output/*/index.html
