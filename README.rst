@@ -2,8 +2,8 @@
 less2sass
 ===============================
 
-.. image:: https://img.shields.io/travis/sydhenry/less2sass.svg
-        :target: https://travis-ci.org/sydhenry/less2sass
+.. image:: https://img.shields.io/travis/HandyCodeJob/less2sass.svg
+        :target: https://travis-ci.org/HandyCodeJob/less2sass
         :alt: Travis Build
 
 .. image:: https://img.shields.io/pypi/v/less2sass.svg
